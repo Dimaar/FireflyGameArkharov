@@ -1471,9 +1471,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ceaabf76c8fc4f5099ea15790cbe622, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  thrust: 2
-  knockTime: 0.2
-  damage: 1
+  thrust: 0
+  knockTime: 0
+  damage: 0
 --- !u!61 &511280519
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3661,9 +3661,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ceaabf76c8fc4f5099ea15790cbe622, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  thrust: 2
-  knockTime: 0.2
-  damage: 1
+  thrust: 0
+  knockTime: 0
+  damage: 0
 --- !u!61 &1016982076
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -45372,9 +45372,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ceaabf76c8fc4f5099ea15790cbe622, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  thrust: 2
-  knockTime: 0.2
-  damage: 1
+  thrust: 0
+  knockTime: 0
+  damage: 0
 --- !u!61 &1677849117
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -57693,6 +57693,12 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!212 &2062005161 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 704708568, guid: eb997b045dbd241079f2df15225a62b7,
+    type: 3}
+  m_PrefabInstance: {fileID: 2637331210145018686}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2079157442
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -58682,6 +58688,41 @@ PrefabInstance:
       value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 2670523772085771081, guid: eb997b045dbd241079f2df15225a62b7,
+        type: 3}
+      propertyPath: playerHit
+      value: 
+      objectReference: {fileID: 11400000, guid: 88d14e053d4eb41c2bb3d149bf8c6a2b,
+        type: 2}
+    - target: {fileID: 5384271062328872042, guid: eb997b045dbd241079f2df15225a62b7,
+        type: 3}
+      propertyPath: startingPosition
+      value: 
+      objectReference: {fileID: 11400000, guid: d5432d972468d4702b5065e3a25a696f,
+        type: 2}
+    - target: {fileID: 5384271062328872042, guid: eb997b045dbd241079f2df15225a62b7,
+        type: 3}
+      propertyPath: playerInventory
+      value: 
+      objectReference: {fileID: 11400000, guid: 52eb4439f1fb44f2e9f890fb55ae3d91,
+        type: 2}
+    - target: {fileID: 5384271062328872042, guid: eb997b045dbd241079f2df15225a62b7,
+        type: 3}
+      propertyPath: receivedItemSprite
+      value: 
+      objectReference: {fileID: 2062005161}
+    - target: {fileID: 5384271062328872042, guid: eb997b045dbd241079f2df15225a62b7,
+        type: 3}
+      propertyPath: currentHealth
+      value: 
+      objectReference: {fileID: 11400000, guid: d2056c37fff324b6cb19ce1eff22f208,
+        type: 2}
+    - target: {fileID: 5384271062328872042, guid: eb997b045dbd241079f2df15225a62b7,
+        type: 3}
+      propertyPath: playerHealthSignal
+      value: 
+      objectReference: {fileID: 11400000, guid: bced594b110fa4728b35d89a74a89552,
+        type: 2}
+    - target: {fileID: 5384271062328872042, guid: eb997b045dbd241079f2df15225a62b7,
         type: 3}
       propertyPath: playerHit
       value: 
